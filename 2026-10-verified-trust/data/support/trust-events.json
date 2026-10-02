@@ -1,0 +1,121 @@
+{
+  "requested": 2,
+  "granted": 0,
+  "secondChance": 17,
+  "rows": [
+    {
+      "cycle": 3,
+      "kind": "trust.second_chance",
+      "rule": "A",
+      "line": "line-0"
+    },
+    {
+      "cycle": 3,
+      "kind": "trust.second_chance",
+      "rule": "A",
+      "line": "honest"
+    },
+    {
+      "cycle": 3,
+      "kind": "trust.second_chance",
+      "rule": "A",
+      "line": "pressure"
+    },
+    {
+      "cycle": 3,
+      "kind": "trust.second_chance",
+      "rule": "A",
+      "line": "cheater"
+    },
+    {
+      "cycle": 3,
+      "kind": "trust.second_chance",
+      "rule": "B",
+      "line": "line-0"
+    },
+    {
+      "cycle": 3,
+      "kind": "trust.approval.requested",
+      "rule": "B",
+      "line": "honest"
+    },
+    {
+      "cycle": 3,
+      "kind": "trust.approval.requested",
+      "rule": "B",
+      "line": "pressure"
+    },
+    {
+      "cycle": 3,
+      "kind": "trust.second_chance",
+      "rule": "B",
+      "line": "cheater"
+    },
+    {
+      "cycle": 6,
+      "kind": "trust.second_chance",
+      "rule": "A",
+      "line": "line-0"
+    },
+    {
+      "cycle": 6,
+      "kind": "trust.second_chance",
+      "rule": "A",
+      "line": "honest"
+    },
+    {
+      "cycle": 6,
+      "kind": "trust.second_chance",
+      "rule": "A",
+      "line": "pressure"
+    },
+    {
+      "cycle": 6,
+      "kind": "trust.second_chance",
+      "rule": "A",
+      "line": "cheater"
+    },
+    {
+      "cycle": 6,
+      "kind": "trust.second_chance",
+      "rule": "B",
+      "line": "line-0"
+    },
+    {
+      "cycle": 6,
+      "kind": "trust.second_chance",
+      "rule": "B",
+      "line": "cheater"
+    },
+    {
+      "cycle": 9,
+      "kind": "trust.second_chance",
+      "rule": "A",
+      "line": "line-0"
+    },
+    {
+      "cycle": 9,
+      "kind": "trust.second_chance",
+      "rule": "A",
+      "line": "honest"
+    },
+    {
+      "cycle": 9,
+      "kind": "trust.second_chance",
+      "rule": "A",
+      "line": "pressure"
+    },
+    {
+      "cycle": 9,
+      "kind": "trust.second_chance",
+      "rule": "B",
+      "line": "line-0"
+    },
+    {
+      "cycle": 9,
+      "kind": "trust.second_chance",
+      "rule": "B",
+      "line": "cheater"
+    }
+  ]
+}

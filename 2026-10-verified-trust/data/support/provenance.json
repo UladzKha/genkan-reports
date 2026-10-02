@@ -1,0 +1,125 @@
+{
+  "note": "Rechecked on 2026-10-02 against fresh Pi and PC SQLite backups. Every journal fact names its archive-copy query or committed CLI command; the reboot fact comes from last -x and journalctl.",
+  "facts": [
+    {
+      "label": "Main run spec hash",
+      "value": "dev:b8ca88e5f84bcb38b71968374667ba189352e125dca1add669da89d546ef264e",
+      "source": "genkan bench cycle status --split main (cycles 2 and 3), genkan bench trust --split main --json, driver log (11 'spec' entries, one value)"
+    },
+    {
+      "label": "Release",
+      "value": "tag v0.10.0, version string 0.10.0-rc.8, commit e7e78504b3ba473e04dab35e17b200032fb8ee54",
+      "source": "coordinator start line in genkan-main.log"
+    },
+    {
+      "label": "Model",
+      "value": "qwen3.8:27b in all 1500 main model attempt submissions; line-0 has no model submission",
+      "source": "sqlite3 -readonly pi-final.db: group main bench.attempt.submitted by payload.model"
+    },
+    {
+      "label": "PREREG.md sha256 (M0b seal)",
+      "value": "5f327acacb8a89f3e65792e56d0f3c59210cd08169e66a0f71197b7b9d62da9f",
+      "source": "sha256sum of the PREREG.md used for this report equals the M0b note"
+    },
+    {
+      "label": "Seal M0a",
+      "value": "note seq 35718 on PC worker, 2026-09-25 09:52:24Z, sha256 8c1f269aad2f9842b5aa2b32dab76f809afaeb7e5de86a29c32246df3cc660f6, commit 1f18ad1fd9f8d1965053618a4c65838b63b5b2ed",
+      "source": "sqlite3 -readonly Pi archive: signed PC worker note at the stated seq; PREREG hash rechecked"
+    },
+    {
+      "label": "Seal M0a amendment",
+      "value": "note seq 35719, 2026-09-25 11:02:26Z, sha256 47263b2cb5df14cc3657383cf4a72f6b236f858ef13e862937deb0318e4ecc35, commit 9159ffa0cf8be0fc69c7aa1548e26d7651d4ffbc",
+      "source": "sqlite3 -readonly Pi archive: signed PC worker note at the stated seq; PREREG hash rechecked"
+    },
+    {
+      "label": "Seal Amendment 2",
+      "value": "note seq 35974, 2026-09-25 14:25:24Z, sha256 fd2a97297f89ccef92463fe556f32242859847d31c043d69f98fc810955b49a6, commit 2c61b26e032600f091a13efe3c89477ec56143dc",
+      "source": "sqlite3 -readonly Pi archive: signed PC worker note at the stated seq; PREREG hash rechecked"
+    },
+    {
+      "label": "Seal Amendment 3",
+      "value": "note seq 36617, 2026-09-25 18:44:52Z, sha256 f3a01b08fad62debf37b60e7eaf5216e0845c55a05706132805ef59c09771040, commit f0c6a9fc37737c52a9791cb96af7316fe02a921a",
+      "source": "sqlite3 -readonly Pi archive: signed PC worker note at the stated seq; PREREG hash rechecked"
+    },
+    {
+      "label": "Seal Amendment 4",
+      "value": "note seq 37757, 2026-09-27 19:49:20Z, sha256 591414c6df00b5992eb4dcaa559fec76cc3d654b7be931268aeeb82ec14d1248, commit ee4d8d26fcb063453e453d13d7f78c8b8a2493c7",
+      "source": "sqlite3 -readonly Pi archive: signed PC worker note at the stated seq; PREREG hash rechecked"
+    },
+    {
+      "label": "Seal Amendment 5",
+      "value": "note seq 37759, 2026-09-27 20:16:41Z, sha256 aba40321cc7701c341e6ac8fdad386d8fb226ba850bd9923f1e5eb7974d03b1f, commit 75ac00be6f9cfc21cf59ac7ce1d717a452273726",
+      "source": "sqlite3 -readonly Pi archive: signed PC worker note at the stated seq; PREREG hash rechecked"
+    },
+    {
+      "label": "Seal Amendment 6",
+      "value": "note seq 38115, 2026-09-28 07:32:07Z, sha256 04d00892a27f0b728220b54bfaecf516adae0b66af83f13873064a95c3c0571b, commit fedc34ffe545c108293dd60bbc2de64c7eec2890",
+      "source": "sqlite3 -readonly Pi archive: signed PC worker note at the stated seq; PREREG hash rechecked"
+    },
+    {
+      "label": "Seal M0b",
+      "value": "note seq 41060, 2026-09-28 16:03:51Z, sha256 5f327acacb8a89f3e65792e56d0f3c59210cd08169e66a0f71197b7b9d62da9f, commit 1b246635954c01efb8fa5023e5ca149b8a782b12",
+      "source": "sqlite3 -readonly Pi archive: signed PC worker note at the stated seq; PREREG hash rechecked"
+    },
+    {
+      "label": "Main cycles",
+      "value": "main/1–10: each completed on run 1, 200 items, zero failed, rerunRequired false, no protocol flag or violation, one spec hash",
+      "source": "genkan bench cycle metrics --split main --cycle N --json for N=1..10 on archive working copy"
+    },
+    {
+      "label": "Trust replay",
+      "value": "dryRun true, journalMatches true, cycleScope whole_split, journaled 0, ten current-spec cycles with no skips",
+      "source": "genkan bench trust --split main --json --dry-run on archive working copy; source code path checked before run"
+    },
+    {
+      "label": "Verify, Pi (coordinator)",
+      "value": "result ok, 130519 events, 4 nodes",
+      "source": "genkan verify on working copy of fresh Pi archive; full signatures, IDs, chains and certificates"
+    },
+    {
+      "label": "Verify, PC worker",
+      "value": "result ok, 130519 events, 4 nodes",
+      "source": "genkan verify on working copy of fresh PC archive; full signatures, IDs, chains and certificates"
+    },
+    {
+      "label": "Chain head, Pi coordinator",
+      "value": "68698 events, max seq 68697, id 87bd7d9ba4446964a738065d961c21ae809ed1f4ab68b2353a7e7ea28d5a23fd",
+      "source": "sqlite3 -readonly Pi archive: per-node max seq at cursor <=130514; same count, head and event bytes on PC archive"
+    },
+    {
+      "label": "Chain head, PC worker",
+      "value": "53153 events, max seq 53152, id fdb1dfce79abfd28ba776c85e2b5983a7f20d9248e34e677e6efbd47d98b5ecc",
+      "source": "sqlite3 -readonly Pi archive: per-node max seq at cursor <=130514; same count, head and event bytes on PC archive"
+    },
+    {
+      "label": "Chain head, phone worker",
+      "value": "5190 events, max seq 5189, id ad5a3c640913d208d5e1371190b129c025041437c886ed16ebb9285cda6c3b4c",
+      "source": "sqlite3 -readonly Pi archive: per-node max seq at cursor <=130514; same count, head and event bytes on PC archive"
+    },
+    {
+      "label": "Chain head, phone worker 2",
+      "value": "3473 events, max seq 3472, id 5ecb2f0785e5c1ca65ae848833e24720d4dda022e3b4de0b7e9db299e4e909ff",
+      "source": "sqlite3 -readonly Pi archive: per-node max seq at cursor <=130514; same count, head and event bytes on PC archive"
+    },
+    {
+      "label": "Journal archive",
+      "value": "Fresh Pi archive [private Pi archive] and PC copy [private PC copy of Pi archive]: sha256 a409a1e2c3ddd6ad17b533280606be054316dd8f218763e7878a98790c70c3d2. Fresh PC archive [private PC archive]: sha256 e464133a18471b63e2eb9989048959c837fc2bfe3ce25960d2d4663fab35e6e2. Each has 130519 events and integrity_check ok. The frozen comparison prefix ends at Pi cursor 130514.",
+      "source": "sqlite3 .backup on live stores; sha256sum, sqlite3 -readonly count(*) and pragma integrity_check on archives"
+    },
+    {
+      "label": "Phone node",
+      "value": "phone worker 2: last Pi-seen head seq 3472; the handoff cites stop head seq 3468, followed by four phone events in the archive. Its own database was not compared or started.",
+      "source": "sqlite3 -readonly Pi archive events for phone worker 2, seq 3468–3472"
+    },
+    {
+      "label": "Freeze point",
+      "value": "main/10 bench.cycle.completed coordinator seq 68693, id ba71feb2831d3fcce91d1462f7aec279e1e2f6b53743277adb0d139e949f3300; last subsequent trust.update.completed (Rule B) coordinator seq 68697, id 87bd7d9ba4446964a738065d961c21ae809ed1f4ab68b2353a7e7ea28d5a23fd; Pi cursor 130514",
+      "source": "sqlite3 -readonly Pi archive events by kind, split, cycle and coordinator seq"
+    },
+    {
+      "label": "PC reboot on 2026-09-29",
+      "value": "shutdown/reboot recorded at 08:19:33 CEST; cause unknown because journalctl no longer retains that boot",
+      "source": "last -x -F; journalctl --list-boots, -b -4 -e, and 08:00–08:20 window"
+    }
+  ]
+}

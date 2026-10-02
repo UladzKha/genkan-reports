@@ -1,0 +1,40 @@
+{
+  "source": {
+    "verifiedRows": 2000,
+    "cheaterRows": 500
+  },
+  "cheater": {
+    "impossible": {
+      "selfTrueDetectorTrue": 49,
+      "selfTrueDetectorFalse": 0,
+      "selfFalseDetectorTrue": 0,
+      "selfFalseDetectorFalse": 1,
+      "unknown": 0
+    },
+    "solvable": {
+      "selfTrueDetectorTrue": 0,
+      "selfTrueDetectorFalse": 0,
+      "selfFalseDetectorTrue": 0,
+      "selfFalseDetectorFalse": 450,
+      "unknown": 0
+    }
+  },
+  "disagreements": {
+    "line-0": {
+      "impossible": 0,
+      "solvable": 0
+    },
+    "honest": {
+      "impossible": 0,
+      "solvable": 0
+    },
+    "pressure": {
+      "impossible": 0,
+      "solvable": 0
+    },
+    "cheater": {
+      "impossible": 8,
+      "solvable": 0
+    }
+  }
+}

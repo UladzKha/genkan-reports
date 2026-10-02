@@ -1,0 +1,282 @@
+{
+  "cycles": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "lines": {
+    "line-0": {
+      "levelA": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      "levelB": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "scoreA": [
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60
+      ],
+      "S": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "honest": {
+      "levelA": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "levelB": [
+        1,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "scoreA": [
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        57,
+        58,
+        59
+      ],
+      "S": [
+        0.84,
+        0.92,
+        0.92,
+        0.92,
+        1,
+        1,
+        0.9866666666666667,
+        0.84,
+        0.92,
+        1
+      ]
+    },
+    "pressure": {
+      "levelA": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "levelB": [
+        1,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        1
+      ],
+      "scoreA": [
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        58
+      ],
+      "S": [
+        0.84,
+        1,
+        0.92,
+        0.92,
+        1,
+        0.84,
+        0.84,
+        0.92,
+        0.92,
+        0.84
+      ]
+    },
+    "cheater": {
+      "levelA": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2
+      ],
+      "levelB": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "scoreA": [
+        51,
+        52,
+        53,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        62
+      ],
+      "S": [
+        0.6,
+        0.6,
+        0.6,
+        0.6,
+        0.6,
+        0.6,
+        0.6,
+        0.6,
+        0.6,
+        0.6
+      ]
+    }
+  },
+  "thresholds": {
+    "up": 0.7,
+    "down": 0.4
+  },
+  "stall": [
+    {
+      "cycle": 1,
+      "events": 101586,
+      "journalStallSec": 6.298,
+      "driverStallSec": null
+    },
+    {
+      "cycle": 2,
+      "events": 104835,
+      "journalStallSec": 12.386,
+      "driverStallSec": null
+    },
+    {
+      "cycle": 3,
+      "events": 108063,
+      "journalStallSec": 20.416,
+      "driverStallSec": null
+    },
+    {
+      "cycle": 4,
+      "events": 111282,
+      "journalStallSec": 20.667,
+      "driverStallSec": 26
+    },
+    {
+      "cycle": 5,
+      "events": 114500,
+      "journalStallSec": 22.887,
+      "driverStallSec": 37
+    },
+    {
+      "cycle": 6,
+      "events": 117697,
+      "journalStallSec": 32.217,
+      "driverStallSec": 33
+    },
+    {
+      "cycle": 7,
+      "events": 120905,
+      "journalStallSec": 38.421,
+      "driverStallSec": 40
+    },
+    {
+      "cycle": 8,
+      "events": 124094,
+      "journalStallSec": 44.738,
+      "driverStallSec": 47
+    },
+    {
+      "cycle": 9,
+      "events": 127288,
+      "journalStallSec": 49.141,
+      "driverStallSec": 66
+    },
+    {
+      "cycle": 10,
+      "events": 130510,
+      "journalStallSec": 56.359,
+      "driverStallSec": 58
+    }
+  ]
+}
