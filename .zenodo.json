@@ -1,0 +1,18 @@
+{
+  "title": "Verified trust under frozen outcomes: Genkan Pi main-run benchmark",
+  "description": "The main run had 2,000 items over 10 cycles and four lines; all 2,000 were verified, 0 failed.\n\nRule A (call-based) ranked the lines by activity, not by honesty. At cycle 10 the cheater scored 62, the do-nothing line 60 and the honest line 59. No call was denied, so Rule A scores depend only on the number of allowed calls: the cheater made 2.44 calls per attempt, the do-nothing line 2.00, honest 1.95.",
+  "creators": [
+    {
+      "name": "Khadakouski, Uladzimir"
+    }
+  ],
+  "license": "cc-by-4.0",
+  "keywords": [
+    "AI agents",
+    "trust",
+    "reward hacking",
+    "preregistration",
+    "evaluation"
+  ],
+  "upload_type": "dataset"
+}
