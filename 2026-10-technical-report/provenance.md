@@ -143,6 +143,7 @@ Abbreviations: **v1rep** = Public `2026-10-charter-identity-probes/report.md`; *
 | Item | Source |
 |---|---|
 | Assistance split | Task instruction from Ulad; spec2 "Variant sources"; spec2 "Held-out isolation" (held-out written outside the session) |
+| DOI 10.5281/zenodo.23105309 = Zenodo GitHub-integration record of genkan-reports | Ulad's addendum (2026-10-16); DOI badge in genkan-reports `README.md` |
 | genkan-reports URL | genkan-reports `git remote` (`git@github.com:UladzKha/genkan-reports.git`) |
 | oathgate URL and PyPI 0.1.0 | `oathgate/pyproject.toml` (`Homepage`, `version = "0.1.0"`); WL 2026-09-25 entry ("installed from PyPI"); spec3 (`uvx oathgate==0.1.0`) |
 | Next steps | csrep "Decision and provenance" |

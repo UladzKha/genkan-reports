@@ -42,9 +42,11 @@ references:
         given-names: Uladzimir
     repository-code: "https://github.com/UladzKha/oathgate"
     url: "https://pypi.org/project/oathgate/0.1.0/"
-  - type: report
-    title: "Genkan reports"
+  - type: software
+    title: "genkan-reports"
+    abstract: "Zenodo GitHub-integration archive of the genkan-reports repository (archived releases). This report is supplemented by it."
     authors:
       - family-names: Khadakouski
         given-names: Uladzimir
-    repository: "https://github.com/UladzKha/genkan-reports"
+    doi: 10.5281/zenodo.23105309
+    repository-code: "https://github.com/UladzKha/genkan-reports"

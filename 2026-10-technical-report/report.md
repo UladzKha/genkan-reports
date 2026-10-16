@@ -367,6 +367,7 @@ The 37 `assisted` development paraphrases were drafted by Claude in a separate c
 
 **Public.**
 
+- Archived repository: the Zenodo GitHub-integration record of genkan-reports, DOI [10.5281/zenodo.23105309](https://doi.org/10.5281/zenodo.23105309), archives the repository's releases. This report is a separate Zenodo record that the archive supplements.
 - Reports: <https://github.com/UladzKha/genkan-reports>. This report and the three reports it consolidates (`2026-10-charter-identity-probes`, `2026-10-probe-v2-cross-model`, `2026-10-charter-series`) are there. Report text is CC BY 4.0.
 - oathgate, the sealing tool: <https://github.com/UladzKha/oathgate>, version 0.1.0 from PyPI (<https://pypi.org/project/oathgate/0.1.0/>), invoked as `uvx oathgate==0.1.0`.
 

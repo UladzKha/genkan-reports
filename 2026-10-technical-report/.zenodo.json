@@ -23,6 +23,12 @@
   ],
   "related_identifiers": [
     {
+      "identifier": "10.5281/zenodo.23105309",
+      "scheme": "doi",
+      "relation": "isSupplementedBy",
+      "resource_type": "software"
+    },
+    {
       "identifier": "https://github.com/UladzKha/genkan-reports",
       "relation": "isSupplementedBy",
       "resource_type": "other"
