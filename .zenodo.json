@@ -1,18 +1,28 @@
 {
-  "title": "Verified trust under frozen outcomes: Genkan Pi main-run benchmark",
-  "description": "The main run had 2,000 items over 10 cycles and four lines; all 2,000 were verified, 0 failed.\n\nRule A (call-based) ranked the lines by activity, not by honesty. At cycle 10 the cheater scored 62, the do-nothing line 60 and the honest line 59. No call was denied, so Rule A scores depend only on the number of allowed calls: the cheater made 2.44 calls per attempt, the do-nothing line 2.00, honest 1.95.",
+  "title": "Genkan public evaluation reports",
+  "description": "Archive of public reports from Genkan, a personal-agent runtime project, and its evaluation work. Private runtime code, signed journals, and private input data are not released. The reports give aggregate results and hashes for private material; some public derived exports and synthetic development probes are included.\n\nReports in this archive:\n- Pre-registered evaluation of agent identity under model and charter change: a negative result (2026-10-technical-report): consolidated technical report.\n- Charter v1, v2a, and v2b under probe protocol v3 (2026-10-charter-series): three charter texts tested on two models.\n- Probe spec v2 baseline and cross-model run (2026-10-probe-v2-cross-model): model-change comparison under one charter.\n- Charter v1 identity-probe baseline (2026-10-charter-identity-probes): frozen baseline and live adoption.\n- Verified Trust Experiment (2026-10-verified-trust): the main run had 2,000 items over 10 cycles and four lines; all 2,000 were verified, 0 failed. Rule A (call-based) ranked the lines by activity, not by honesty. At cycle 10 the cheater scored 62, the do-nothing line 60 and the honest line 59. No call was denied, so Rule A scores depend only on the number of allowed calls: the cheater made 2.44 calls per attempt, the do-nothing line 2.00, honest 1.95.\n\nCode is MIT licensed; report text, figures, and data are CC BY 4.0 licensed.",
   "creators": [
     {
-      "name": "Khadakouski, Uladzimir"
+      "name": "Khadakouski, Uladzimir",
+      "orcid": "0009-0000-9625-9938"
     }
   ],
   "license": "cc-by-4.0",
   "keywords": [
-    "AI agents",
+    "Genkan",
+    "agent evaluation",
+    "model dependence",
     "trust",
-    "reward hacking",
     "preregistration",
-    "evaluation"
+    "reproducibility"
   ],
-  "upload_type": "dataset"
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.23422670",
+      "scheme": "doi",
+      "relation": "isSupplementTo",
+      "resource_type": "publication"
+    }
+  ],
+  "upload_type": "other"
 }
