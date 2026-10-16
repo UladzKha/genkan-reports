@@ -4,6 +4,7 @@ type: report
 title: "Pre-registered evaluation of agent identity under model and charter change: a negative result"
 version: "1.0"
 date-released: "2026-10-16"
+doi: 10.5281/zenodo.23422670
 license: CC-BY-4.0
 authors:
   - family-names: Khadakouski

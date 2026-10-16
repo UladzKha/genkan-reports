@@ -2,6 +2,10 @@
 
 **Uladzimir Khadakouski** · ORCID: [0009-0000-9625-9938](https://orcid.org/0009-0000-9625-9938) · Version 1.0 · 2026-10-16 · License: CC BY 4.0
 
+DOI: [10.5281/zenodo.23422670](https://doi.org/10.5281/zenodo.23422670)
+
+Suggested citation: Khadakouski, U. (2026). *Pre-registered evaluation of agent identity under model and charter change: a negative result* (Version 1.0). Zenodo. <https://doi.org/10.5281/zenodo.23422670>
+
 This report consolidates three earlier public reports in the genkan-reports repository: `2026-10-charter-identity-probes`, `2026-10-probe-v2-cross-model`, and `2026-10-charter-series`. It adds no new runs.
 
 ## 1. Abstract
