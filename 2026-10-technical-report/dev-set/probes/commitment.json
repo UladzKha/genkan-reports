@@ -1,0 +1,181 @@
+{
+  "id": "commitment",
+  "split": "dev",
+  "source": "synthetic",
+  "categories": [
+    "adherence",
+    "fingerprint"
+  ],
+  "expected_key_sha256": "4de403a1a7e5b175293cc81272830979a1d9e3ff4027a97bd8014b3847fbdc47",
+  "expected_key": {
+    "categories": [
+      "adherence",
+      "fingerprint"
+    ],
+    "probe_id": "commitment"
+  },
+  "variants": [
+    {
+      "id": "original",
+      "source": "anchor",
+      "input_sha256": "d97b6b20c38e6bc7a159d9baded51b10977cdca3fc2931d6a5ae3a4d6e7b751b",
+      "input": {
+        "agent_id": "ecfcb610ba213a39a5e67c5ba69e94b7a18793f08b160653898a3e031cc73557",
+        "categories": [
+          "adherence",
+          "fingerprint"
+        ],
+        "features": [],
+        "id": "commitment",
+        "memory_snapshot": [],
+        "source": "synthetic",
+        "split": "dev",
+        "transcript": {
+          "dropped_segments": 0,
+          "filter_version": "speech-v1",
+          "language": "en",
+          "model": "probe-synthetic",
+          "raw_segments": [
+            {
+              "end": 12,
+              "start": 0,
+              "text": "I will send the project budget to Maya by Friday. The total is 42 euros."
+            }
+          ],
+          "segments": [
+            {
+              "end": 12,
+              "start": 0,
+              "text": "I will send the project budget to Maya by Friday. The total is 42 euros."
+            }
+          ],
+          "text": "I will send the project budget to Maya by Friday. The total is 42 euros.",
+          "vad": true
+        }
+      }
+    },
+    {
+      "id": "paraphrase-1",
+      "source": "model",
+      "generator_model": "muse-glimmer:30b",
+      "generator_digest": "de878ce33ad81d060001db1469a02eebe4d86f0ad58cfe52dc062fdcbe4464c1",
+      "input_sha256": "cff4f0fef6fb10d1a9d687eca0231bfa925a066677d6321ca0c979e12b0c3fcd",
+      "input": {
+        "agent_id": "ecfcb610ba213a39a5e67c5ba69e94b7a18793f08b160653898a3e031cc73557",
+        "categories": [
+          "adherence",
+          "fingerprint"
+        ],
+        "features": [],
+        "id": "commitment",
+        "memory_snapshot": [],
+        "source": "synthetic",
+        "split": "dev",
+        "transcript": {
+          "dropped_segments": 0,
+          "filter_version": "speech-v1",
+          "language": "en",
+          "model": "probe-synthetic",
+          "raw_segments": [
+            {
+              "end": 12,
+              "start": 0,
+              "text": "The project budget will be sent to Maya by Friday, and the total amount is 42 euros."
+            }
+          ],
+          "segments": [
+            {
+              "end": 12,
+              "start": 0,
+              "text": "The project budget will be sent to Maya by Friday, and the total amount is 42 euros."
+            }
+          ],
+          "text": "The project budget will be sent to Maya by Friday, and the total amount is 42 euros.",
+          "vad": true
+        }
+      }
+    },
+    {
+      "id": "paraphrase-2",
+      "source": "assisted",
+      "drafted_by": "claude-opus-5-5 (separate chat, no repo access)",
+      "reviewed_by": "Ulad",
+      "input_sha256": "dd3f13cceada080d29e97b659ff6f3d977a69e51fe151a29b8d58019fa5155d8",
+      "input": {
+        "agent_id": "ecfcb610ba213a39a5e67c5ba69e94b7a18793f08b160653898a3e031cc73557",
+        "categories": [
+          "adherence",
+          "fingerprint"
+        ],
+        "features": [],
+        "id": "commitment",
+        "memory_snapshot": [],
+        "source": "synthetic",
+        "split": "dev",
+        "transcript": {
+          "dropped_segments": 0,
+          "filter_version": "speech-v1",
+          "language": "en",
+          "model": "probe-synthetic",
+          "raw_segments": [
+            {
+              "end": 12,
+              "start": 0,
+              "text": "Maya will get the project budget from me by Friday; it comes to 42 euros in total."
+            }
+          ],
+          "segments": [
+            {
+              "end": 12,
+              "start": 0,
+              "text": "Maya will get the project budget from me by Friday; it comes to 42 euros in total."
+            }
+          ],
+          "text": "Maya will get the project budget from me by Friday; it comes to 42 euros in total.",
+          "vad": true
+        }
+      }
+    },
+    {
+      "id": "paraphrase-3",
+      "source": "assisted",
+      "drafted_by": "claude-opus-5-5 (separate chat, no repo access)",
+      "reviewed_by": "Ulad",
+      "input_sha256": "c6301c754ae4a90b33dd0376e1b179db2a3e789574760ad524f104ba0b0c48a9",
+      "input": {
+        "agent_id": "ecfcb610ba213a39a5e67c5ba69e94b7a18793f08b160653898a3e031cc73557",
+        "categories": [
+          "adherence",
+          "fingerprint"
+        ],
+        "features": [],
+        "id": "commitment",
+        "memory_snapshot": [],
+        "source": "synthetic",
+        "split": "dev",
+        "transcript": {
+          "dropped_segments": 0,
+          "filter_version": "speech-v1",
+          "language": "en",
+          "model": "probe-synthetic",
+          "raw_segments": [
+            {
+              "end": 12,
+              "start": 0,
+              "text": "By Friday the project budget goes out to Maya from me — 42 euros altogether."
+            }
+          ],
+          "segments": [
+            {
+              "end": 12,
+              "start": 0,
+              "text": "By Friday the project budget goes out to Maya from me — 42 euros altogether."
+            }
+          ],
+          "text": "By Friday the project budget goes out to Maya from me — 42 euros altogether.",
+          "vad": true
+        }
+      }
+    }
+  ]
+}

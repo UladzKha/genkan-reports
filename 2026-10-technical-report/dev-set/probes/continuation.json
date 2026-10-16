@@ -1,0 +1,220 @@
+{
+  "id": "continuation",
+  "split": "dev",
+  "source": "synthetic",
+  "categories": [
+    "adherence",
+    "continuity",
+    "fingerprint"
+  ],
+  "expected_key_sha256": "e917466c0c95c43245a647fee1825156a263fd50e8f934a9bd3ff31420f64026",
+  "expected_key": {
+    "categories": [
+      "adherence",
+      "continuity",
+      "fingerprint"
+    ],
+    "continuity": [
+      {
+        "memory_id": "8888888888888888888888888888888888888888888888888888888888888888",
+        "valid_link_types": [
+          "resolves_open_item",
+          "continues"
+        ]
+      }
+    ],
+    "probe_id": "continuation"
+  },
+  "variants": [
+    {
+      "id": "original",
+      "source": "anchor",
+      "input_sha256": "9f62882cc91260cf507922a7fae34781278ac254e32ca138ed3e4ca1587fd042",
+      "input": {
+        "agent_id": "ecfcb610ba213a39a5e67c5ba69e94b7a18793f08b160653898a3e031cc73557",
+        "categories": [
+          "adherence",
+          "continuity",
+          "fingerprint"
+        ],
+        "features": [],
+        "id": "continuation",
+        "memory_snapshot": [
+          {
+            "expected_link_type": "continues",
+            "id": "8888888888888888888888888888888888888888888888888888888888888888",
+            "text": "The team plans a demo and has not chosen a venue."
+          }
+        ],
+        "source": "synthetic",
+        "split": "dev",
+        "transcript": {
+          "dropped_segments": 0,
+          "filter_version": "speech-v1",
+          "language": "en",
+          "model": "probe-synthetic",
+          "raw_segments": [
+            {
+              "end": 12,
+              "start": 0,
+              "text": "The team has confirmed the venue for the planned demo: Room B at the library."
+            }
+          ],
+          "segments": [
+            {
+              "end": 12,
+              "start": 0,
+              "text": "The team has confirmed the venue for the planned demo: Room B at the library."
+            }
+          ],
+          "text": "The team has confirmed the venue for the planned demo: Room B at the library.",
+          "vad": true
+        }
+      }
+    },
+    {
+      "id": "paraphrase-1",
+      "source": "assisted",
+      "drafted_by": "claude-opus-5-5 (separate chat, no repo access)",
+      "reviewed_by": "Ulad",
+      "input_sha256": "eec8126780d5d900b9132487cfee3b8acfe1201bd870f1c0a912d3af55d1808d",
+      "input": {
+        "agent_id": "ecfcb610ba213a39a5e67c5ba69e94b7a18793f08b160653898a3e031cc73557",
+        "categories": [
+          "adherence",
+          "continuity",
+          "fingerprint"
+        ],
+        "features": [],
+        "id": "continuation",
+        "memory_snapshot": [
+          {
+            "expected_link_type": "continues",
+            "id": "8888888888888888888888888888888888888888888888888888888888888888",
+            "text": "The team plans a demo and has not chosen a venue."
+          }
+        ],
+        "source": "synthetic",
+        "split": "dev",
+        "transcript": {
+          "dropped_segments": 0,
+          "filter_version": "speech-v1",
+          "language": "en",
+          "model": "probe-synthetic",
+          "raw_segments": [
+            {
+              "end": 12,
+              "start": 0,
+              "text": "For the demo we're planning, the team settled on Room B at the library as the venue."
+            }
+          ],
+          "segments": [
+            {
+              "end": 12,
+              "start": 0,
+              "text": "For the demo we're planning, the team settled on Room B at the library as the venue."
+            }
+          ],
+          "text": "For the demo we're planning, the team settled on Room B at the library as the venue.",
+          "vad": true
+        }
+      }
+    },
+    {
+      "id": "paraphrase-2",
+      "source": "assisted",
+      "drafted_by": "claude-opus-5-5 (separate chat, no repo access)",
+      "reviewed_by": "Ulad",
+      "input_sha256": "b1c343117d6c8e946ac279680ee4c6758617b992a5ff523ceb2b8b17b1a77b9e",
+      "input": {
+        "agent_id": "ecfcb610ba213a39a5e67c5ba69e94b7a18793f08b160653898a3e031cc73557",
+        "categories": [
+          "adherence",
+          "continuity",
+          "fingerprint"
+        ],
+        "features": [],
+        "id": "continuation",
+        "memory_snapshot": [
+          {
+            "expected_link_type": "continues",
+            "id": "8888888888888888888888888888888888888888888888888888888888888888",
+            "text": "The team plans a demo and has not chosen a venue."
+          }
+        ],
+        "source": "synthetic",
+        "split": "dev",
+        "transcript": {
+          "dropped_segments": 0,
+          "filter_version": "speech-v1",
+          "language": "en",
+          "model": "probe-synthetic",
+          "raw_segments": [
+            {
+              "end": 12,
+              "start": 0,
+              "text": "Room B at the library is now the confirmed venue for the team's demo."
+            }
+          ],
+          "segments": [
+            {
+              "end": 12,
+              "start": 0,
+              "text": "Room B at the library is now the confirmed venue for the team's demo."
+            }
+          ],
+          "text": "Room B at the library is now the confirmed venue for the team's demo.",
+          "vad": true
+        }
+      }
+    },
+    {
+      "id": "paraphrase-3",
+      "source": "assisted",
+      "drafted_by": "claude-opus-5-5 (separate chat, no repo access)",
+      "reviewed_by": "Ulad",
+      "input_sha256": "716853e434e1397e4481b81b977bd85192ffaca90a5a95b98e8f3af533f35d1f",
+      "input": {
+        "agent_id": "ecfcb610ba213a39a5e67c5ba69e94b7a18793f08b160653898a3e031cc73557",
+        "categories": [
+          "adherence",
+          "continuity",
+          "fingerprint"
+        ],
+        "features": [],
+        "id": "continuation",
+        "memory_snapshot": [
+          {
+            "expected_link_type": "continues",
+            "id": "8888888888888888888888888888888888888888888888888888888888888888",
+            "text": "The team plans a demo and has not chosen a venue."
+          }
+        ],
+        "source": "synthetic",
+        "split": "dev",
+        "transcript": {
+          "dropped_segments": 0,
+          "filter_version": "speech-v1",
+          "language": "en",
+          "model": "probe-synthetic",
+          "raw_segments": [
+            {
+              "end": 12,
+              "start": 0,
+              "text": "The team picked the venue for its planned demo: it will be Room B in the library."
+            }
+          ],
+          "segments": [
+            {
+              "end": 12,
+              "start": 0,
+              "text": "The team picked the venue for its planned demo: it will be Room B in the library."
+            }
+          ],
+          "text": "The team picked the venue for its planned demo: it will be Room B in the library.",
+          "vad": true
+        }
+      }
+    }
+  ]
+}

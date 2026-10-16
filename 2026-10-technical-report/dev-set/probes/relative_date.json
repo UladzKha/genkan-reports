@@ -1,0 +1,203 @@
+{
+  "id": "relative_date",
+  "split": "dev",
+  "source": "synthetic",
+  "categories": [
+    "fingerprint",
+    "relative_date"
+  ],
+  "expected_key_sha256": "2960bdbddeabbaf36d77e65a990c3b812469e7fcd1e686e358be2085c7296e83",
+  "expected_key": {
+    "categories": [
+      "fingerprint",
+      "relative_date"
+    ],
+    "probe_id": "relative_date",
+    "relative_date": {
+      "call_date": "2026-10-12",
+      "days_offset": 1,
+      "expected_date": "2026-10-13",
+      "timezone": "Europe/Amsterdam"
+    }
+  },
+  "variants": [
+    {
+      "id": "original",
+      "source": "anchor",
+      "input_sha256": "e9a28d0a27ff5aec95bceec8ced034f078fb1544f1d6f9620ea88a5ab3e6fc2b",
+      "input": {
+        "agent_id": "ecfcb610ba213a39a5e67c5ba69e94b7a18793f08b160653898a3e031cc73557",
+        "call_date": "2026-10-12",
+        "categories": [
+          "fingerprint",
+          "relative_date"
+        ],
+        "features": [
+          "relative_date"
+        ],
+        "id": "relative_date",
+        "memory_snapshot": [],
+        "source": "synthetic",
+        "split": "dev",
+        "timezone": "Europe/Amsterdam",
+        "transcript": {
+          "dropped_segments": 0,
+          "filter_version": "speech-v1",
+          "language": "en",
+          "model": "probe-synthetic",
+          "raw_segments": [
+            {
+              "end": 12,
+              "start": 0,
+              "text": "Tomorrow Tuesday at 09:00 I will meet Leo at the station."
+            }
+          ],
+          "segments": [
+            {
+              "end": 12,
+              "start": 0,
+              "text": "Tomorrow Tuesday at 09:00 I will meet Leo at the station."
+            }
+          ],
+          "text": "Tomorrow Tuesday at 09:00 I will meet Leo at the station.",
+          "vad": true
+        }
+      }
+    },
+    {
+      "id": "paraphrase-1",
+      "source": "assisted",
+      "drafted_by": "claude-opus-5-5 (separate chat, no repo access)",
+      "reviewed_by": "Ulad",
+      "input_sha256": "18e084773c500fc7c06163fd8397e43c146957958d8fc729ad4f3e5bcd10dd32",
+      "input": {
+        "agent_id": "ecfcb610ba213a39a5e67c5ba69e94b7a18793f08b160653898a3e031cc73557",
+        "call_date": "2026-10-12",
+        "categories": [
+          "fingerprint",
+          "relative_date"
+        ],
+        "features": [
+          "relative_date"
+        ],
+        "id": "relative_date",
+        "memory_snapshot": [],
+        "source": "synthetic",
+        "split": "dev",
+        "timezone": "Europe/Amsterdam",
+        "transcript": {
+          "dropped_segments": 0,
+          "filter_version": "speech-v1",
+          "language": "en",
+          "model": "probe-synthetic",
+          "raw_segments": [
+            {
+              "end": 12,
+              "start": 0,
+              "text": "Tomorrow, which is Tuesday, I'm meeting Leo at the station at 09:00."
+            }
+          ],
+          "segments": [
+            {
+              "end": 12,
+              "start": 0,
+              "text": "Tomorrow, which is Tuesday, I'm meeting Leo at the station at 09:00."
+            }
+          ],
+          "text": "Tomorrow, which is Tuesday, I'm meeting Leo at the station at 09:00.",
+          "vad": true
+        }
+      }
+    },
+    {
+      "id": "paraphrase-2",
+      "source": "assisted",
+      "drafted_by": "claude-opus-5-5 (separate chat, no repo access)",
+      "reviewed_by": "Ulad",
+      "input_sha256": "a273d58d04a4a38a86b82386db3dc97fde633276ca3c50f8a73bf3c7dd8918a2",
+      "input": {
+        "agent_id": "ecfcb610ba213a39a5e67c5ba69e94b7a18793f08b160653898a3e031cc73557",
+        "call_date": "2026-10-12",
+        "categories": [
+          "fingerprint",
+          "relative_date"
+        ],
+        "features": [
+          "relative_date"
+        ],
+        "id": "relative_date",
+        "memory_snapshot": [],
+        "source": "synthetic",
+        "split": "dev",
+        "timezone": "Europe/Amsterdam",
+        "transcript": {
+          "dropped_segments": 0,
+          "filter_version": "speech-v1",
+          "language": "en",
+          "model": "probe-synthetic",
+          "raw_segments": [
+            {
+              "end": 12,
+              "start": 0,
+              "text": "I've got a meeting with Leo at the station tomorrow — Tuesday — at 09:00."
+            }
+          ],
+          "segments": [
+            {
+              "end": 12,
+              "start": 0,
+              "text": "I've got a meeting with Leo at the station tomorrow — Tuesday — at 09:00."
+            }
+          ],
+          "text": "I've got a meeting with Leo at the station tomorrow — Tuesday — at 09:00.",
+          "vad": true
+        }
+      }
+    },
+    {
+      "id": "paraphrase-3",
+      "source": "assisted",
+      "drafted_by": "claude-opus-5-5 (separate chat, no repo access)",
+      "reviewed_by": "Ulad",
+      "input_sha256": "b16c5d46ddf6aef24f7880aa6215c39826b52a7b82488e75b82e1e8620f8ffea",
+      "input": {
+        "agent_id": "ecfcb610ba213a39a5e67c5ba69e94b7a18793f08b160653898a3e031cc73557",
+        "call_date": "2026-10-12",
+        "categories": [
+          "fingerprint",
+          "relative_date"
+        ],
+        "features": [
+          "relative_date"
+        ],
+        "id": "relative_date",
+        "memory_snapshot": [],
+        "source": "synthetic",
+        "split": "dev",
+        "timezone": "Europe/Amsterdam",
+        "transcript": {
+          "dropped_segments": 0,
+          "filter_version": "speech-v1",
+          "language": "en",
+          "model": "probe-synthetic",
+          "raw_segments": [
+            {
+              "end": 12,
+              "start": 0,
+              "text": "Leo and I will meet at the station tomorrow, Tuesday, at 09:00."
+            }
+          ],
+          "segments": [
+            {
+              "end": 12,
+              "start": 0,
+              "text": "Leo and I will meet at the station tomorrow, Tuesday, at 09:00."
+            }
+          ],
+          "text": "Leo and I will meet at the station tomorrow, Tuesday, at 09:00.",
+          "vad": true
+        }
+      }
+    }
+  ]
+}

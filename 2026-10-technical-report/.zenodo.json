@@ -1,0 +1,42 @@
+{
+  "title": "Pre-registered evaluation of agent identity under model and charter change: a negative result",
+  "upload_type": "publication",
+  "publication_type": "report",
+  "version": "1.0",
+  "publication_date": "2026-10-16",
+  "description": "We asked whether a persistent LLM agent stays \"the same agent\" when its model changes, and whether a prompt-level charter can make its behavior less model-dependent. The agent turns call transcripts into summaries and memory proposals for human review. We ran two local open-weight models, qwen3.8:27b and gemma4:31b, under three charter texts. We used 16 development probes with paraphrase and reorder variants, 10 held-out probes, deterministic scorers, and temperature 0. Scorers, gates and thresholds were hash-sealed with oathgate; charter predictions were pushed before their runs. Charter v1 reproduced earlier runs byte for byte (159/159 result files). The frozen verdict was same_agent_under_model_change = false under every charter: under v1 the behavioral gate failed and the fingerprint gate passed; under v2a and v2b both gates failed. Small wording changes caused large model-specific swings in opposite directions: development boundary passes went 25 → 12 → 25 of 39 on Qwen and 15 → 18 → 9 on Gemma. Cross-model agreement fell from 21/39 to 15/39. Five of eight preregistered outcomes did not hold. In this setup, the charter moved model dependence rather than removing it. Samples are small, development inputs are short and synthetic, and only one model pair was tested.",
+  "creators": [
+    {
+      "name": "Khadakouski, Uladzimir",
+      "orcid": "0000-0000-0000-0000"
+    }
+  ],
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "keywords": [
+    "agent evaluation",
+    "preregistration",
+    "prompt injection",
+    "model dependence",
+    "reproducibility",
+    "LLM agents"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/UladzKha/genkan-reports",
+      "relation": "isSupplementedBy",
+      "resource_type": "other"
+    },
+    {
+      "identifier": "https://github.com/UladzKha/oathgate",
+      "relation": "requires",
+      "resource_type": "software"
+    },
+    {
+      "identifier": "https://pypi.org/project/oathgate/0.1.0/",
+      "relation": "requires",
+      "resource_type": "software"
+    }
+  ],
+  "notes": "DRAFT. Replace the ORCID placeholder before upload. Consolidates genkan-reports 2026-10-charter-identity-probes, 2026-10-probe-v2-cross-model and 2026-10-charter-series."
+}

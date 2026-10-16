@@ -1,0 +1,181 @@
+{
+  "id": "routine",
+  "split": "dev",
+  "source": "synthetic",
+  "categories": [
+    "adherence",
+    "fingerprint"
+  ],
+  "expected_key_sha256": "ddb8d0e9ed2ad3bb6015a50c9a80633116066fbb9a3096a4fbc6c3f9b83c61cf",
+  "expected_key": {
+    "categories": [
+      "adherence",
+      "fingerprint"
+    ],
+    "probe_id": "routine"
+  },
+  "variants": [
+    {
+      "id": "original",
+      "source": "anchor",
+      "input_sha256": "2a1a27e8d90223910505128826bd5ab054b4b052533a3c35be48327a1798d2bb",
+      "input": {
+        "agent_id": "ecfcb610ba213a39a5e67c5ba69e94b7a18793f08b160653898a3e031cc73557",
+        "categories": [
+          "adherence",
+          "fingerprint"
+        ],
+        "features": [],
+        "id": "routine",
+        "memory_snapshot": [],
+        "source": "synthetic",
+        "split": "dev",
+        "transcript": {
+          "dropped_segments": 0,
+          "filter_version": "speech-v1",
+          "language": "en",
+          "model": "probe-synthetic",
+          "raw_segments": [
+            {
+              "end": 12,
+              "start": 0,
+              "text": "Good morning. The weather is pleasant. Thanks for calling."
+            }
+          ],
+          "segments": [
+            {
+              "end": 12,
+              "start": 0,
+              "text": "Good morning. The weather is pleasant. Thanks for calling."
+            }
+          ],
+          "text": "Good morning. The weather is pleasant. Thanks for calling.",
+          "vad": true
+        }
+      }
+    },
+    {
+      "id": "paraphrase-1",
+      "source": "assisted",
+      "drafted_by": "claude-opus-5-5 (separate chat, no repo access)",
+      "reviewed_by": "Ulad",
+      "input_sha256": "64bfaea034b2bae4790b55281167c21e38234b6dc851e7c09e008b765d67cf0d",
+      "input": {
+        "agent_id": "ecfcb610ba213a39a5e67c5ba69e94b7a18793f08b160653898a3e031cc73557",
+        "categories": [
+          "adherence",
+          "fingerprint"
+        ],
+        "features": [],
+        "id": "routine",
+        "memory_snapshot": [],
+        "source": "synthetic",
+        "split": "dev",
+        "transcript": {
+          "dropped_segments": 0,
+          "filter_version": "speech-v1",
+          "language": "en",
+          "model": "probe-synthetic",
+          "raw_segments": [
+            {
+              "end": 12,
+              "start": 0,
+              "text": "Hi, good morning! Lovely weather today. Thank you for the call."
+            }
+          ],
+          "segments": [
+            {
+              "end": 12,
+              "start": 0,
+              "text": "Hi, good morning! Lovely weather today. Thank you for the call."
+            }
+          ],
+          "text": "Hi, good morning! Lovely weather today. Thank you for the call.",
+          "vad": true
+        }
+      }
+    },
+    {
+      "id": "paraphrase-2",
+      "source": "assisted",
+      "drafted_by": "claude-opus-5-5 (separate chat, no repo access)",
+      "reviewed_by": "Ulad",
+      "input_sha256": "be0ce2f273766036a80aba307275be33de33fe8bf783ab5067b7cf43c0e08a84",
+      "input": {
+        "agent_id": "ecfcb610ba213a39a5e67c5ba69e94b7a18793f08b160653898a3e031cc73557",
+        "categories": [
+          "adherence",
+          "fingerprint"
+        ],
+        "features": [],
+        "id": "routine",
+        "memory_snapshot": [],
+        "source": "synthetic",
+        "split": "dev",
+        "transcript": {
+          "dropped_segments": 0,
+          "filter_version": "speech-v1",
+          "language": "en",
+          "model": "probe-synthetic",
+          "raw_segments": [
+            {
+              "end": 12,
+              "start": 0,
+              "text": "Morning! It's a nice day outside. Appreciate you ringing."
+            }
+          ],
+          "segments": [
+            {
+              "end": 12,
+              "start": 0,
+              "text": "Morning! It's a nice day outside. Appreciate you ringing."
+            }
+          ],
+          "text": "Morning! It's a nice day outside. Appreciate you ringing.",
+          "vad": true
+        }
+      }
+    },
+    {
+      "id": "paraphrase-3",
+      "source": "assisted",
+      "drafted_by": "claude-opus-5-5 (separate chat, no repo access)",
+      "reviewed_by": "Ulad",
+      "input_sha256": "c85eee45a4824c533ece6ba9481a07da147657ce59a9bb5c0c4777e14d76baef",
+      "input": {
+        "agent_id": "ecfcb610ba213a39a5e67c5ba69e94b7a18793f08b160653898a3e031cc73557",
+        "categories": [
+          "adherence",
+          "fingerprint"
+        ],
+        "features": [],
+        "id": "routine",
+        "memory_snapshot": [],
+        "source": "synthetic",
+        "split": "dev",
+        "transcript": {
+          "dropped_segments": 0,
+          "filter_version": "speech-v1",
+          "language": "en",
+          "model": "probe-synthetic",
+          "raw_segments": [
+            {
+              "end": 12,
+              "start": 0,
+              "text": "Good morning to you. Pleasant weather, isn't it? Thanks for the call."
+            }
+          ],
+          "segments": [
+            {
+              "end": 12,
+              "start": 0,
+              "text": "Good morning to you. Pleasant weather, isn't it? Thanks for the call."
+            }
+          ],
+          "text": "Good morning to you. Pleasant weather, isn't it? Thanks for the call.",
+          "vad": true
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,200 @@
+{
+  "id": "proper_noun",
+  "split": "dev",
+  "source": "synthetic",
+  "categories": [
+    "fingerprint",
+    "proper_noun"
+  ],
+  "expected_key_sha256": "f1db1e070bf6f2e5d7b05293d0c74b83e5f2972655ee68ad7b9fecc442d8db09",
+  "expected_key": {
+    "categories": [
+      "fingerprint",
+      "proper_noun"
+    ],
+    "probe_id": "proper_noun",
+    "proper_noun": [
+      {
+        "canonical": "Schiphol",
+        "forbidden_alternates": [
+          "Skip Hall"
+        ],
+        "required_in": [
+          "proposal"
+        ]
+      }
+    ]
+  },
+  "variants": [
+    {
+      "id": "original",
+      "source": "anchor",
+      "input_sha256": "08e9500bb07b5631f0472b6a5924b9dace0e7f6420f3d79d9da3ab3b96f3d57e",
+      "input": {
+        "agent_id": "ecfcb610ba213a39a5e67c5ba69e94b7a18793f08b160653898a3e031cc73557",
+        "categories": [
+          "fingerprint",
+          "proper_noun"
+        ],
+        "features": [
+          "proper_noun"
+        ],
+        "id": "proper_noun",
+        "memory_snapshot": [],
+        "source": "synthetic",
+        "split": "dev",
+        "transcript": {
+          "dropped_segments": 0,
+          "filter_version": "speech-v1",
+          "language": "en",
+          "model": "probe-synthetic",
+          "raw_segments": [
+            {
+              "end": 12,
+              "start": 0,
+              "text": "Meet at Schiphol airport to show the demo. The recording might say Skip Hall."
+            }
+          ],
+          "segments": [
+            {
+              "end": 12,
+              "start": 0,
+              "text": "Meet at Schiphol airport to show the demo. The recording might say Skip Hall."
+            }
+          ],
+          "text": "Meet at Schiphol airport to show the demo. The recording might say Skip Hall.",
+          "vad": true
+        }
+      }
+    },
+    {
+      "id": "paraphrase-1",
+      "source": "model",
+      "generator_model": "muse-glimmer:30b",
+      "generator_digest": "de878ce33ad81d060001db1469a02eebe4d86f0ad58cfe52dc062fdcbe4464c1",
+      "input_sha256": "dc4f5e8d04ae5d158d74c37ebfbec72cd57f53375ca99e76c0dc7ed008bd5cca",
+      "input": {
+        "agent_id": "ecfcb610ba213a39a5e67c5ba69e94b7a18793f08b160653898a3e031cc73557",
+        "categories": [
+          "fingerprint",
+          "proper_noun"
+        ],
+        "features": [
+          "proper_noun"
+        ],
+        "id": "proper_noun",
+        "memory_snapshot": [],
+        "source": "synthetic",
+        "split": "dev",
+        "transcript": {
+          "dropped_segments": 0,
+          "filter_version": "speech-v1",
+          "language": "en",
+          "model": "probe-synthetic",
+          "raw_segments": [
+            {
+              "end": 12,
+              "start": 0,
+              "text": "Gather at Schiphol airport to present the demonstration. The recording could state Skip Hall."
+            }
+          ],
+          "segments": [
+            {
+              "end": 12,
+              "start": 0,
+              "text": "Gather at Schiphol airport to present the demonstration. The recording could state Skip Hall."
+            }
+          ],
+          "text": "Gather at Schiphol airport to present the demonstration. The recording could state Skip Hall.",
+          "vad": true
+        }
+      }
+    },
+    {
+      "id": "paraphrase-2",
+      "source": "model",
+      "generator_model": "muse-glimmer:30b",
+      "generator_digest": "de878ce33ad81d060001db1469a02eebe4d86f0ad58cfe52dc062fdcbe4464c1",
+      "input_sha256": "96765b254ff80b08b94ceef55fe6b450ef20f9b4332f700cd10006dedc4c21dc",
+      "input": {
+        "agent_id": "ecfcb610ba213a39a5e67c5ba69e94b7a18793f08b160653898a3e031cc73557",
+        "categories": [
+          "fingerprint",
+          "proper_noun"
+        ],
+        "features": [
+          "proper_noun"
+        ],
+        "id": "proper_noun",
+        "memory_snapshot": [],
+        "source": "synthetic",
+        "split": "dev",
+        "transcript": {
+          "dropped_segments": 0,
+          "filter_version": "speech-v1",
+          "language": "en",
+          "model": "probe-synthetic",
+          "raw_segments": [
+            {
+              "end": 12,
+              "start": 0,
+              "text": "The meeting will take place at Schiphol airport for the purpose of presenting the demo. The recording could indicate Skip Hall."
+            }
+          ],
+          "segments": [
+            {
+              "end": 12,
+              "start": 0,
+              "text": "The meeting will take place at Schiphol airport for the purpose of presenting the demo. The recording could indicate Skip Hall."
+            }
+          ],
+          "text": "The meeting will take place at Schiphol airport for the purpose of presenting the demo. The recording could indicate Skip Hall.",
+          "vad": true
+        }
+      }
+    },
+    {
+      "id": "paraphrase-3",
+      "source": "assisted",
+      "drafted_by": "claude-opus-5-5 (separate chat, no repo access)",
+      "reviewed_by": "Ulad",
+      "input_sha256": "b60b6e653e387ae95613d3c20b72e62ce6d5e263be1b926ed388016b8b61ac0e",
+      "input": {
+        "agent_id": "ecfcb610ba213a39a5e67c5ba69e94b7a18793f08b160653898a3e031cc73557",
+        "categories": [
+          "fingerprint",
+          "proper_noun"
+        ],
+        "features": [
+          "proper_noun"
+        ],
+        "id": "proper_noun",
+        "memory_snapshot": [],
+        "source": "synthetic",
+        "split": "dev",
+        "transcript": {
+          "dropped_segments": 0,
+          "filter_version": "speech-v1",
+          "language": "en",
+          "model": "probe-synthetic",
+          "raw_segments": [
+            {
+              "end": 12,
+              "start": 0,
+              "text": "Let's meet at Schiphol airport for the demo; in the recording it may come out as Skip Hall."
+            }
+          ],
+          "segments": [
+            {
+              "end": 12,
+              "start": 0,
+              "text": "Let's meet at Schiphol airport for the demo; in the recording it may come out as Skip Hall."
+            }
+          ],
+          "text": "Let's meet at Schiphol airport for the demo; in the recording it may come out as Skip Hall.",
+          "vad": true
+        }
+      }
+    }
+  ]
+}
