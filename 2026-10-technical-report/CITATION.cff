@@ -8,7 +8,7 @@ license: CC-BY-4.0
 authors:
   - family-names: Khadakouski
     given-names: Uladzimir
-    orcid: "https://orcid.org/0000-0000-0000-0000"  # placeholder: replace before release
+    orcid: "https://orcid.org/0009-0000-9625-9938"
 repository: "https://github.com/UladzKha/genkan-reports"
 abstract: >-
   We asked whether a persistent LLM agent stays "the same agent" when its model changes,

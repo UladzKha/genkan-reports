@@ -8,7 +8,7 @@
   "creators": [
     {
       "name": "Khadakouski, Uladzimir",
-      "orcid": "0000-0000-0000-0000"
+      "orcid": "0009-0000-9625-9938"
     }
   ],
   "license": "cc-by-4.0",
@@ -44,5 +44,5 @@
       "resource_type": "software"
     }
   ],
-  "notes": "DRAFT. Replace the ORCID placeholder before upload. Consolidates genkan-reports 2026-10-charter-identity-probes, 2026-10-probe-v2-cross-model and 2026-10-charter-series."
+  "notes": "Consolidates genkan-reports 2026-10-charter-identity-probes, 2026-10-probe-v2-cross-model and 2026-10-charter-series."
 }
